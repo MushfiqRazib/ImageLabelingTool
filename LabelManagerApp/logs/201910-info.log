@@ -1,0 +1,686 @@
+2019-10-20 22:43:14 | INFO     | __main__ : START APPLICATION
+2019-10-20 22:43:14 | INFO     | __main__ : Initialize settings.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 22:43:14 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 22:43:14 | INFO     | __main__ : Run application.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 22:43:14 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:43:14 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 22:43:14 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 22:43:14 | INFO     | __main__ : Done running application.
+2019-10-20 22:43:14 | INFO     | __main__ : END APPLICATION
+2019-10-20 22:49:11 | INFO     | __main__ : START APPLICATION
+2019-10-20 22:49:11 | INFO     | __main__ : Initialize settings.
+2019-10-20 22:49:11 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 22:49:11 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 22:49:12 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 22:49:12 | INFO     | __main__ : Run application.
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: [<database.models.image.Image object at 0x7fdd63582080>, <database.models.image.Image object at 0x7fdd63582f98>, <database.models.image.Image object at 0x7fdd63582f60>, <database.models.image.Image object at 0x7fdd63582518>].
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:49:12 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 22:49:12 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 22:49:12 | INFO     | __main__ : Done running application.
+2019-10-20 22:49:12 | INFO     | __main__ : END APPLICATION
+2019-10-20 22:54:34 | INFO     | __main__ : START APPLICATION
+2019-10-20 22:54:34 | INFO     | __main__ : Initialize settings.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 22:54:34 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 22:54:34 | INFO     | __main__ : Run application.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 22:54:34 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:54:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 22:54:34 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 22:54:34 | INFO     | __main__ : Done running application.
+2019-10-20 22:54:34 | INFO     | __main__ : END APPLICATION
+2019-10-20 22:56:11 | INFO     | __main__ : START APPLICATION
+2019-10-20 22:56:11 | INFO     | __main__ : Initialize settings.
+2019-10-20 22:56:11 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 22:56:11 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 22:56:12 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 22:56:12 | INFO     | __main__ : Run application.
+2019-10-20 22:56:12 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 22:56:12 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:56:12 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 22:56:12 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 22:56:12 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 22:56:12 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 22:56:12 | INFO     | __main__ : Done running application.
+2019-10-20 22:56:12 | INFO     | __main__ : END APPLICATION
+2019-10-20 23:04:48 | INFO     | __main__ : START APPLICATION
+2019-10-20 23:04:48 | INFO     | __main__ : Initialize settings.
+2019-10-20 23:04:48 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:04:48 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:04:49 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:04:49 | INFO     | __main__ : Run application.
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:04:49 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : New project id: 20
+2019-10-20 23:04:49 | INFO     | labelingapp.labelboxclient : New project id: 21
+2019-10-20 23:04:49 | INFO     | __main__ : Done running application.
+2019-10-20 23:04:49 | INFO     | __main__ : END APPLICATION
+2019-10-20 23:08:00 | INFO     | __main__ : START APPLICATION
+2019-10-20 23:08:00 | INFO     | __main__ : Initialize settings.
+2019-10-20 23:08:00 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:08:00 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:08:01 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:08:01 | INFO     | __main__ : Run application.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : New project name: Project_Gear_Image_05
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:08:01 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:08:01 | INFO     | labelingapp.labelboxclient : New project name: Project_Gear_Image_03
+2019-10-20 23:08:01 | INFO     | __main__ : Done running application.
+2019-10-20 23:08:01 | INFO     | __main__ : END APPLICATION
+2019-10-20 23:33:27 | INFO     | __main__ : START APPLICATION
+2019-10-20 23:33:27 | INFO     | __main__ : Initialize settings.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:33:27 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:33:27 | INFO     | __main__ : Run application.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : New project name: Project_Gear_Image_05
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 58, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.projectdal : Database insert: Project_Details: Project_Id: , Project_Name: Project_Gear_Image_05_critical, Date_Project: 2019-10-20 23:33:27.799977+02:00, Parent_Project_Id: 20.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: , parent project id: 20
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 3f9ce309087e4d31bb01d082862df2ad, Orig_Image_Name: 2255b659022b413ea2db9e97b7f4b6f9, Ext_Image: jpg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/3f9ce309087e4d31bb01d082862df2ad.jpg, Project_Id: , Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.655537+02:00.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 97c045cd5d0740feb1259865a8148d89, Orig_Image_Name: d48fd851d23d4eeba73ff245f792730d, Ext_Image: png, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/97c045cd5d0740feb1259865a8148d89.png, Project_Id: , Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.618093+02:00.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : New project name: Project_Gear_Image_03
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 58, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.projectdal : Database insert: Project_Details: Project_Id: , Project_Name: Project_Gear_Image_03_critical, Date_Project: 2019-10-20 23:33:27.826330+02:00, Parent_Project_Id: 21.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: , parent project id: 21
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 06c0c7532a6942df94eb1e5a5749f31d, Orig_Image_Name: e038796c38334f3fa1430d625c642815, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/06c0c7532a6942df94eb1e5a5749f31d.jpeg, Project_Id: , Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.121226+02:00.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 09cc5a51b7404384931fd2f3153428d8, Orig_Image_Name: 93eef084ac1a4e2187702b6357954ae8, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/09cc5a51b7404384931fd2f3153428d8.jpeg, Project_Id: , Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.096164+02:00.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:33:27 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:33:27 | INFO     | labelingapp.labelboxclient : Start creating new Labelbox project and dataset.
+2019-10-20 23:43:08 | INFO     | __main__ : START APPLICATION
+2019-10-20 23:43:08 | INFO     | __main__ : Initialize settings.
+2019-10-20 23:43:08 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:43:08 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:43:09 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:43:09 | INFO     | __main__ : Run application.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 0.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [].
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.projectdal : Database insert: Project_Details: Project_Id: 26, Project_Name: Project_Gear_Image_05_critical, Date_Project: 2019-10-20 23:43:09.442147+02:00, Parent_Project_Id: 20.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: 26, parent project id: 20
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 3f9ce309087e4d31bb01d082862df2ad, Orig_Image_Name: 2255b659022b413ea2db9e97b7f4b6f9, Ext_Image: jpg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/3f9ce309087e4d31bb01d082862df2ad.jpg, Project_Id: 26, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.655537+02:00.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 97c045cd5d0740feb1259865a8148d89, Orig_Image_Name: d48fd851d23d4eeba73ff245f792730d, Ext_Image: png, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/97c045cd5d0740feb1259865a8148d89.png, Project_Id: 26, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.618093+02:00.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.projectdal : Database insert: Project_Details: Project_Id: 27, Project_Name: Project_Gear_Image_03_critical, Date_Project: 2019-10-20 23:43:09.514969+02:00, Parent_Project_Id: 21.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: 27, parent project id: 21
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 06c0c7532a6942df94eb1e5a5749f31d, Orig_Image_Name: e038796c38334f3fa1430d625c642815, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/06c0c7532a6942df94eb1e5a5749f31d.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.121226+02:00.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 09cc5a51b7404384931fd2f3153428d8, Orig_Image_Name: 93eef084ac1a4e2187702b6357954ae8, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/09cc5a51b7404384931fd2f3153428d8.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.096164+02:00.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:43:09 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:43:09 | INFO     | labelingapp.labelboxclient : Start creating new Labelbox project and dataset.
+2019-10-20 23:51:33 | INFO     | __main__ : START APPLICATION
+2019-10-20 23:51:33 | INFO     | __main__ : Initialize settings.
+2019-10-20 23:51:33 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:33 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:34 | INFO     | __main__ : Run application.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 2.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [26, 27].
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 4.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:34 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelboxclient : Start creating new Labelbox project and dataset.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:34 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Project created. Project id: ck1zj01mok0si0725dogk2ci5.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelboxclient : New Labelbox project created with Labelbox with project name: Project_Gear_Image_03_critical_critical, project id: ck1zj01mok0si0725dogk2ci5.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:35 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:36 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:36 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:36 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Dataset created. Name: Project_Gear_Image_03_critical_critical_dataset, id: ck1zj02ysqd2l0748icr41c8t.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelboxclient : New Labelbox dataset created with Labelbox with dataset name: Project_Gear_Image_03_critical_critical_dataset, dataset id: ck1zj02ysqd2l0748icr41c8t.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:37 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:38 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:38 | INFO     | labelingapp.labelbox : Labelbox API: dataset linked to project (add). Project id: ck1zj01mok0si0725dogk2ci5, dataset Id: ck1zj02ysqd2l0748icr41c8t.
+2019-10-20 23:51:38 | INFO     | labelingapp.labelboxclient : Created dataset linked to created project successfully.
+2019-10-20 23:51:38 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:38 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:39 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:39 | INFO     | labelingapp.labelbox : Labelbox API: uinterface linked to project (add). Project id: ck1zj01mok0si0725dogk2ci5, uinterface Id: cjufm6cfppyc1075549l39t9o.
+2019-10-20 23:51:39 | INFO     | labelingapp.labelboxclient : User interface linked to created project successfully.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:39 | INFO     | database.dal.labelbox_details_dal : Database insert: Labelbox_Details: Dataset_Id: ck1zj02ysqd2l0748icr41c8t, Dataset_Name: Project_Gear_Image_03_critical_critical_dataset, Project_Id: 27, LB_Project_Id: ck1zj01mok0si0725dogk2ci5, UInterface_ID: cjufm6cfppyc1075549l39t9o, UInterface_Name: FZG Image Labeling, Date_Labelbox: 2019-10-20 23:51:39.306185+02:00.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:39 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:39 | INFO     | labelingapp.labelboxclient : Start creating new Labelbox project and dataset.
+2019-10-20 23:51:39 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:39 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Project created. Project id: ck1zj05qb0lx20757g9tf5n2s.
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:40 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:41 | INFO     | labelingapp.labelboxclient : New Labelbox project created with Labelbox with project name: Project_Gear_Image_05_critical_critical, project id: ck1zj05qb0lx20757g9tf5n2s.
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:41 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:42 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:42 | INFO     | labelingapp.labelbox : Labelbox API: Dataset created. Name: Project_Gear_Image_05_critical_critical_dataset, id: ck1zj077nk0u90725taep7zym.
+2019-10-20 23:51:42 | INFO     | labelingapp.labelboxclient : New Labelbox dataset created with Labelbox with dataset name: Project_Gear_Image_05_critical_critical_dataset, dataset id: ck1zj077nk0u90725taep7zym.
+2019-10-20 23:51:42 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:42 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:43 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:43 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:43 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: dataset linked to project (add). Project id: ck1zj05qb0lx20757g9tf5n2s, dataset Id: ck1zj077nk0u90725taep7zym.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelboxclient : Created dataset linked to created project successfully.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: uinterface linked to project (add). Project id: ck1zj05qb0lx20757g9tf5n2s, uinterface Id: cjufm6cfppyc1075549l39t9o.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelboxclient : User interface linked to created project successfully.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:44 | INFO     | database.dal.labelbox_details_dal : Database insert: Labelbox_Details: Dataset_Id: ck1zj077nk0u90725taep7zym, Dataset_Name: Project_Gear_Image_05_critical_critical_dataset, Project_Id: 26, LB_Project_Id: ck1zj05qb0lx20757g9tf5n2s, UInterface_ID: cjufm6cfppyc1075549l39t9o, UInterface_Name: FZG Image Labeling, Date_Labelbox: 2019-10-20 23:51:44.856235+02:00.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelboxclient : Processing current project id: 26.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:44 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:44 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:45 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:45 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:45 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:45 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:45 | INFO     | labelingapp.labelbox : Labelbox API: Data added. Dataset id: ck1zj077nk0u90725taep7zym.
+2019-10-20 23:51:45 | INFO     | labelingapp.labelboxclient : Data uploaded successfully.
+2019-10-20 23:51:45 | INFO     | labelingapp.labelboxclient : Updating image status: Labeling_Running: True.
+2019-10-20 23:51:45 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:45 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:46 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 3f9ce309087e4d31bb01d082862df2ad, Orig_Image_Name: 2255b659022b413ea2db9e97b7f4b6f9, Ext_Image: jpg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/3f9ce309087e4d31bb01d082862df2ad.jpg, Project_Id: 26, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.655537+02:00.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:46 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 97c045cd5d0740feb1259865a8148d89, Orig_Image_Name: d48fd851d23d4eeba73ff245f792730d, Ext_Image: png, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_05/Critical/97c045cd5d0740feb1259865a8148d89.png, Project_Id: 26, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.618093+02:00.
+2019-10-20 23:51:46 | INFO     | labelingapp.labelboxclient : Processing current project id: 27.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:46 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:46 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:46 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:46 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:46 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-20 23:51:46 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-20 23:51:47 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-20 23:51:47 | INFO     | labelingapp.labelbox : Labelbox API: Data added. Dataset id: ck1zj02ysqd2l0748icr41c8t.
+2019-10-20 23:51:47 | INFO     | labelingapp.labelboxclient : Data uploaded successfully.
+2019-10-20 23:51:47 | INFO     | labelingapp.labelboxclient : Updating image status: Labeling_Running: True.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:47 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 06c0c7532a6942df94eb1e5a5749f31d, Orig_Image_Name: e038796c38334f3fa1430d625c642815, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/06c0c7532a6942df94eb1e5a5749f31d.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.121226+02:00.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-20 23:51:47 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-20 23:51:47 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 09cc5a51b7404384931fd2f3153428d8, Orig_Image_Name: 93eef084ac1a4e2187702b6357954ae8, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/09cc5a51b7404384931fd2f3153428d8.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:28.096164+02:00.
+2019-10-20 23:51:47 | INFO     | labelingapp.labelboxclient : End uploading critical images to Labelox. Total number of uploaded critical images: 4.
+2019-10-20 23:51:47 | INFO     | labelingapp.labelboxclient : END UPLOADING LABELBOX
+2019-10-20 23:51:47 | INFO     | __main__ : Done running application.
+2019-10-20 23:51:47 | INFO     | __main__ : END APPLICATION
+2019-10-23 16:38:40 | INFO     | __main__ : START APPLICATION
+2019-10-23 16:38:40 | INFO     | __main__ : Initialize settings.
+2019-10-23 16:38:40 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:40 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:42 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:42 | INFO     | __main__ : Run application.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 1.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 2.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [26, 27].
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | database.dal.projectdal : Database insert: Project_Details: Project_Id: 28, Project_Name: Project_Gear_Image_03_critical, Date_Project: 2019-10-23 16:38:42.172751+02:00, Parent_Project_Id: 21.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: 28, parent project id: 21
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 2ee546fcca47419abb736a21b3bdf8bd, Orig_Image_Name: 552fdd655b2a466fb18a3af2c33361da, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/2ee546fcca47419abb736a21b3bdf8bd.jpeg, Project_Id: 28, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.753544+02:00.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 1.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:42 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelboxclient : Start creating new Labelbox project and dataset.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:42 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Project created. Project id: ck23duxvhm4wm0721ewjyl5wd.
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:43 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:44 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:44 | INFO     | labelingapp.labelboxclient : New Labelbox project created with Labelbox with project name: Project_Gear_Image_03_critical, project id: ck23duxvhm4wm0721ewjyl5wd.
+2019-10-23 16:38:44 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:44 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:46 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:46 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:46 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:47 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:47 | INFO     | labelingapp.labelbox : Labelbox API: Dataset created. Name: Project_Gear_Image_03_critical_dataset, id: ck23dv0ilgedp08382qbzvc3p.
+2019-10-23 16:38:47 | INFO     | labelingapp.labelboxclient : New Labelbox dataset created with Labelbox with dataset name: Project_Gear_Image_03_critical_dataset, dataset id: ck23dv0ilgedp08382qbzvc3p.
+2019-10-23 16:38:47 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:47 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:48 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:48 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:48 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:50 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:50 | INFO     | labelingapp.labelbox : Labelbox API: dataset linked to project (add). Project id: ck23duxvhm4wm0721ewjyl5wd, dataset Id: ck23dv0ilgedp08382qbzvc3p.
+2019-10-23 16:38:50 | INFO     | labelingapp.labelboxclient : Created dataset linked to created project successfully.
+2019-10-23 16:38:50 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:50 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:38:51 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:38:51 | INFO     | labelingapp.labelbox : Labelbox API: uinterface linked to project (add). Project id: ck23duxvhm4wm0721ewjyl5wd, uinterface Id: cjufm6cfppyc1075549l39t9o.
+2019-10-23 16:38:51 | INFO     | labelingapp.labelboxclient : User interface linked to created project successfully.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: 1 record inserted successfully.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:51 | INFO     | database.dal.labelbox_details_dal : Database insert: Labelbox_Details: Dataset_Id: ck23dv0ilgedp08382qbzvc3p, Dataset_Name: Project_Gear_Image_03_critical_dataset, Project_Id: 28, LB_Project_Id: ck23duxvhm4wm0721ewjyl5wd, UInterface_ID: cjufm6cfppyc1075549l39t9o, UInterface_Name: FZG Image Labeling, Date_Labelbox: 2019-10-23 16:38:51.634910+02:00.
+2019-10-23 16:38:51 | INFO     | labelingapp.labelboxclient : Processing current project id: 28.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:38:51 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:38:51 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:38:51 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:39:03 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:39:03 | INFO     | labelingapp.labelbox : Labelbox API: Data added. Dataset id: ck23dv0ilgedp08382qbzvc3p.
+2019-10-23 16:39:03 | INFO     | labelingapp.labelboxclient : Data uploaded successfully.
+2019-10-23 16:39:03 | INFO     | labelingapp.labelboxclient : Updating image status: Labeling_Running: True.
+2019-10-23 16:39:03 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:39:03 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:39:03 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-23 16:39:03 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:39:03 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 2ee546fcca47419abb736a21b3bdf8bd, Orig_Image_Name: 552fdd655b2a466fb18a3af2c33361da, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/2ee546fcca47419abb736a21b3bdf8bd.jpeg, Project_Id: 28, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.753544+02:00.
+2019-10-23 16:39:03 | INFO     | labelingapp.labelboxclient : End uploading critical images to Labelox. Total number of uploaded critical images: 1.
+2019-10-23 16:39:03 | INFO     | labelingapp.labelboxclient : END UPLOADING LABELBOX
+2019-10-23 16:39:03 | INFO     | __main__ : Done running application.
+2019-10-23 16:39:03 | INFO     | __main__ : END APPLICATION
+2019-10-23 16:57:23 | INFO     | __main__ : START APPLICATION
+2019-10-23 16:57:23 | INFO     | __main__ : Initialize settings.
+2019-10-23 16:57:23 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:57:23 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:57:24 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:57:24 | INFO     | __main__ : Run application.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 0.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 3.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [20, 21, 21].
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:57:24 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 0.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : End uploading critical images to Labelox. Total number of uploaded critical images: 0.
+2019-10-23 16:57:24 | INFO     | labelingapp.labelboxclient : END UPLOADING LABELBOX
+2019-10-23 16:57:24 | INFO     | __main__ : Done running application.
+2019-10-23 16:57:24 | INFO     | __main__ : END APPLICATION
+2019-10-23 16:58:31 | INFO     | __main__ : START APPLICATION
+2019-10-23 16:58:31 | INFO     | __main__ : Initialize settings.
+2019-10-23 16:58:31 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 16:58:31 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 16:58:33 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 16:58:33 | INFO     | __main__ : Run application.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 0.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 2.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [20, 21].
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 16:58:33 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 0.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : End uploading critical images to Labelox. Total number of uploaded critical images: 0.
+2019-10-23 16:58:33 | INFO     | labelingapp.labelboxclient : END UPLOADING LABELBOX
+2019-10-23 16:58:33 | INFO     | __main__ : Done running application.
+2019-10-23 16:58:33 | INFO     | __main__ : END APPLICATION
+2019-10-23 17:01:09 | INFO     | __main__ : START APPLICATION
+2019-10-23 17:01:09 | INFO     | __main__ : Initialize settings.
+2019-10-23 17:01:09 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 17:01:09 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 17:01:10 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 17:01:10 | INFO     | __main__ : Run application.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : START HANDLING CRITICAL LABELED IMAGES
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : START CREATING PROJECT FOR CRITICAL LABELED IMAGES
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : GET ALL THE THRESHOLD CRITICAL IMAGES
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 1.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Total number of critical projects: 2.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Total number of critical projects array: [20, 21].
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Created new critical (child) project id: 27, parent project id: 21
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 2ee546fcca47419abb736a21b3bdf8bd, Orig_Image_Name: 552fdd655b2a466fb18a3af2c33361da, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/2ee546fcca47419abb736a21b3bdf8bd.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: False, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.753544+02:00.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Updating the image details table with new critical project id for the threshold critical image: {new_project_id}
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : START UPLOADING CRITICAL IMAGES TO LABELBOX.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Total number of threshold critical images: 1.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelboxclient : Processing current project id: 27.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:10 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelbox : Labelbox API: Initializing connection.
+2019-10-23 17:01:10 | INFO     | labelingapp.labelbox : Labelbox API: Trying to connect...
+2019-10-23 17:01:11 | INFO     | labelingapp.labelbox : Labelbox API: Connection established.
+2019-10-23 17:01:11 | INFO     | labelingapp.labelbox : Labelbox API: Data added. Dataset id: ck1zj02ysqd2l0748icr41c8t.
+2019-10-23 17:01:11 | INFO     | labelingapp.labelboxclient : Data uploaded successfully.
+2019-10-23 17:01:11 | INFO     | labelingapp.labelboxclient : Updating image status: Labeling_Running: True.
+2019-10-23 17:01:11 | INFO     | database.dbmanager : Database: Starting to connect.
+2019-10-23 17:01:11 | INFO     | database.dbmanager : Database: Connection established.
+2019-10-23 17:01:11 | INFO     | database.dbmanager : Database: 1 record updated successfully.
+2019-10-23 17:01:11 | INFO     | database.dbmanager : Database: Connection closed.
+2019-10-23 17:01:11 | INFO     | database.dal.imagedal : Database update: Image_Details: Image_Id: 2ee546fcca47419abb736a21b3bdf8bd, Orig_Image_Name: 552fdd655b2a466fb18a3af2c33361da, Ext_Image: jpeg, Dir_Image: /home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/, Web_Url: http://localhost:3000//home/mushfiqrahman/dev/ProjectRoot/Project_Gear_Image_03/Critical/2ee546fcca47419abb736a21b3bdf8bd.jpeg, Project_Id: 27, Labeled: 0, Critical: 3, Labeling_Running: True, Quality_Labeling: 0, Is_Deleted: False, Date_Image: 2019-08-26 11:45:27.753544+02:00.
+2019-10-23 17:01:11 | INFO     | labelingapp.labelboxclient : End uploading critical images to Labelox. Total number of uploaded critical images: 1.
+2019-10-23 17:01:11 | INFO     | labelingapp.labelboxclient : END UPLOADING LABELBOX
+2019-10-23 17:01:11 | INFO     | __main__ : Done running application.
+2019-10-23 17:01:11 | INFO     | __main__ : END APPLICATION

@@ -1,0 +1,351 @@
+2020-01-21 10:04:33 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 58, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 2: ... '2020-01-21T10:04:33.107922+01:00'::timestamptz, '') RETURN...
+                                                             ^
+
+2020-01-21 10:04:33 | ERROR    | database.dbmanager : Database: Failed to get row by key.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 129, in get_row_by_key
+    cursor.execute(sql_fetch_query, (anyKey, ))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 1: ...Project_Name" FROM "Project_Details" WHERE "Project_Id" = ''
+                                                                     ^
+
+2020-01-21 10:15:02 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 60, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 2: ... '2020-01-21T10:15:02.858037+01:00'::timestamptz, '') RETURN...
+                                                             ^
+
+2020-01-21 10:15:02 | ERROR    | labelimageapp.directoryop : Project: project1. No subdirectories created.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:15:02 | ERROR    | database.dbmanager : Database: Failed to delete record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 80, in scan_and_insert_processes
+    self.project_root_dir.create_subdirectories(cur_project_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 96, in db_delete_row
+    cursor.execute(sql_delete_query, (anyId, ))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 2:                         WHERE "Project_Id" = '';
+                                                     ^
+
+2020-01-21 10:15:02 | ERROR    | labelimageapp.labelimagecontroller : Reverted database entry due to file system error.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 80, in scan_and_insert_processes
+    self.project_root_dir.create_subdirectories(cur_project_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:15:02 | ERROR    | database.dbmanager : Database: Failed to get row by key.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 131, in get_row_by_key
+    cursor.execute(sql_fetch_query, (anyKey, ))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 1: ...Project_Name" FROM "Project_Details" WHERE "Project_Id" = ''
+                                                                     ^
+
+2020-01-21 10:20:48 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 60, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "NULL"
+LINE 2: ... '2020-01-21T10:20:48.718924+01:00'::timestamptz, 'NULL') RE...
+                                                             ^
+
+2020-01-21 10:20:48 | ERROR    | labelimageapp.directoryop : Project: project1. No subdirectories created.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:20:48 | ERROR    | database.dbmanager : Database: Failed to delete record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 80, in scan_and_insert_processes
+    self.project_root_dir.create_subdirectories(cur_project_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 96, in db_delete_row
+    cursor.execute(sql_delete_query, (anyId, ))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 2:                         WHERE "Project_Id" = '';
+                                                     ^
+
+2020-01-21 10:20:48 | ERROR    | labelimageapp.labelimagecontroller : Reverted database entry due to file system error.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 80, in scan_and_insert_processes
+    self.project_root_dir.create_subdirectories(cur_project_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:20:48 | ERROR    | database.dbmanager : Database: Failed to get row by key.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 131, in get_row_by_key
+    cursor.execute(sql_fetch_query, (anyKey, ))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: ""
+LINE 1: ...Project_Name" FROM "Project_Details" WHERE "Project_Id" = ''
+                                                                     ^
+
+2020-01-21 10:28:40 | ERROR    | labelimageapp.directoryop : Project: project1. No subdirectories created.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Reverted database entry due to file system error.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 80, in scan_and_insert_processes
+    self.project_root_dir.create_subdirectories(cur_project_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 38, in create_subdirectories
+    os.mkdir(self.labeled)
+FileExistsError: [Errno 17] File exists: 'Labeled'
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Could not execute file system operation.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 550, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/project1/MITER_GEARS.png' -> '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/b1f3b8314d5a48fca043e613881f2ee1.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 174, in dbmodify_and_move_image
+    image_path,sub_dir,_ = self.imagefile_move(current_file_path,project_name,new_file_name, destination)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 261, in imagefile_move
+    self.project_root_dir.rename_move_file(current_file_path, destination_path2, new_file_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 56, in rename_move_file
+    shutil.move(cur_dir, dest_path)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 564, in move
+    copy_function(src, real_dst)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 263, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/b1f3b8314d5a48fca043e613881f2ee1.png'
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Could not execute file system operation.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 550, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/project1/gi1.jpeg' -> '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/0e820a7f46d247d78efa3534005edd24.jpeg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 174, in dbmodify_and_move_image
+    image_path,sub_dir,_ = self.imagefile_move(current_file_path,project_name,new_file_name, destination)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 261, in imagefile_move
+    self.project_root_dir.rename_move_file(current_file_path, destination_path2, new_file_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 56, in rename_move_file
+    shutil.move(cur_dir, dest_path)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 564, in move
+    copy_function(src, real_dst)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 263, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/0e820a7f46d247d78efa3534005edd24.jpeg'
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Could not execute file system operation.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 550, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/project1/gi15.jpeg' -> '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/98eb146426cf477cad3a5359042443bc.jpeg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 174, in dbmodify_and_move_image
+    image_path,sub_dir,_ = self.imagefile_move(current_file_path,project_name,new_file_name, destination)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 261, in imagefile_move
+    self.project_root_dir.rename_move_file(current_file_path, destination_path2, new_file_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 56, in rename_move_file
+    shutil.move(cur_dir, dest_path)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 564, in move
+    copy_function(src, real_dst)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 263, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/98eb146426cf477cad3a5359042443bc.jpeg'
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Could not execute file system operation.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 550, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/project1/gi16.jpeg' -> '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/363fe7f8ba0d499f80495682e788fcc6.jpeg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 174, in dbmodify_and_move_image
+    image_path,sub_dir,_ = self.imagefile_move(current_file_path,project_name,new_file_name, destination)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 261, in imagefile_move
+    self.project_root_dir.rename_move_file(current_file_path, destination_path2, new_file_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 56, in rename_move_file
+    shutil.move(cur_dir, dest_path)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 564, in move
+    copy_function(src, real_dst)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 263, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/363fe7f8ba0d499f80495682e788fcc6.jpeg'
+2020-01-21 10:28:40 | ERROR    | database.dal.projectdal : Invalid Project Name.
+NoneType: None
+2020-01-21 10:28:40 | ERROR    | labelimageapp.labelimagecontroller : Could not execute file system operation.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 550, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/project1/straight-bevel-gears.jpg' -> '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/a8a4571ede5b40878384b0fd3fceb300.jpg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 174, in dbmodify_and_move_image
+    image_path,sub_dir,_ = self.imagefile_move(current_file_path,project_name,new_file_name, destination)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/labelimagecontroller.py", line 261, in imagefile_move
+    self.project_root_dir.rename_move_file(current_file_path, destination_path2, new_file_name)
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/labelimageapp/directoryop.py", line 56, in rename_move_file
+    shutil.move(cur_dir, dest_path)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 564, in move
+    copy_function(src, real_dst)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 263, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mushfiqrahman/dev/ProjectRoot/None/Unlabeled/a8a4571ede5b40878384b0fd3fceb300.jpg'
+2020-01-21 11:17:55 | ERROR    | database.dbmanager : Database: Failed to get all rows.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 110, in get_all_rows
+    connection = self.__db_connect()
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 42, in __db_connect
+    database=self.DATABASE_NAME)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  database "labeling" does not exist
+
+2020-01-22 23:07:29 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 150, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-22 23:15:32 | ERROR    | labelingapp.labelboxclient : Invalid project id.
+NoneType: None
+2020-01-22 23:15:55 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 150, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-22 23:17:03 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 150, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-23 08:37:05 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 151, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-23 08:59:20 | ERROR    | labelimageapp.labelimagecontroller : Project root directory is not a valid directory.
+NoneType: None
+2020-01-23 08:59:20 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 08:59:21 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 08:59:21 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 09:02:13 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 09:02:13 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 09:20:16 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 151, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-23 09:22:46 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 151, in get_rows_by_condition
+    cursor.execute(sql_fetch_query, record)
+  File "/home/mushfiqrahman/anaconda3/envs/DjangoProject/lib/python3.6/site-packages/psycopg2/extras.py", line 142, in execute
+    return super(DictCursor, self).execute(query, vars)
+TypeError: 'int' object does not support indexing
+2020-01-23 09:34:34 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 09:34:34 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    print(all_rows[0])
+IndexError: list index out of range
+2020-01-23 09:49:34 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    logger.info(f'all_rows: {all_rows[0]} retrieved')
+IndexError: list index out of range
+2020-01-23 09:49:34 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    logger.info(f'all_rows: {all_rows[0]} retrieved')
+IndexError: list index out of range
+2020-01-23 09:55:44 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    logger.info(f'all_rows: {all_rows[0]} retrieved')
+IndexError: list index out of range
+2020-01-23 09:55:44 | ERROR    | database.dbmanager : Database: Failed to get row by condition.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/develop_branch/labeling/LabelManagerApp/database/dbmanager.py", line 153, in get_rows_by_condition
+    logger.info(f'all_rows: {all_rows[0]} retrieved')
+IndexError: list index out of range

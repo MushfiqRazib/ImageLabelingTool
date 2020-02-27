@@ -1,0 +1,107 @@
+stages:
+    - start
+    - code quality
+    - security
+    - test
+    - build
+    - deploy
+    
+variables:
+    PYTHON_PATH: ""
+    PYTHON_MAINFILES: "LabelManagerApp"
+    
+information:
+    stage: start
+    tags:
+        - linux
+    script:
+        - pwd
+        - whoami
+        - python3 -V
+        - pip3 -V
+        - pipenv --version
+        - echo $PYTHON_PATH
+        - echo $PYTHON_MAINFILES
+
+setup:
+    stage: start
+    tags:
+        - linux
+    script:
+        - pipenv install
+
+    
+static type hints:
+    stage: code quality
+    tags:
+        - linux
+    script:
+        - pipenv run mypy --ignore-missing-imports $PYTHON_PATH/$PYTHON_MAINFILES
+        - echo 'MyPy terminated successfully.'
+    allow_failure: true
+    
+
+style guide 1:
+    stage: code quality
+    tags:
+        - linux
+    script:
+        - pipenv run pylint_runner --rcfile utils/style/python/pylintstyle $PYTHON_PATH/$PYTHON_MAINFILES
+        - echo 'Pylint terminated successfully.'
+    allow_failure: true
+    
+    
+style guide 2:
+    stage: code quality
+    tags:
+        - linux
+    script:
+        - pipenv run flake8 --ignore=W293,W503 --statistics $PYTHON_PATH/$PYTHON_MAINFILES
+        - echo 'Flake8 terminated successfully.'
+    allow_failure: true
+
+
+security:
+    stage: security
+    tags:
+        - linux
+    script:
+        - pipenv run bandit -r $PYTHON_PATH/$PYTHON_MAINFILES
+        - echo 'Bandit terminated successfully.'
+    allow_failure: true        
+     
+     
+unit tests:
+    stage: test
+    tags:
+        - linux
+    script:
+        - pipenv run python -m pytest -v --cov-report=term-missing --cov $PYTHON_MAINFILES
+    allow_failure: false
+    
+      
+build:
+    stage: build
+    tags:
+        - linux
+    script: 
+        - scriptforbuilding
+
+
+deploy to server: 
+    stage: deploy
+    tags:
+        - linux
+    script: 
+        - scriptfordeployment
+    environment:
+        name: Server
+    only:
+        - master
+    when: manual
+        
+        
+        
+        
+        
+        

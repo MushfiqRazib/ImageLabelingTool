@@ -1,0 +1,10 @@
+numpy==1.18.1
+psycopg2-binary==2.8.3
+PyYAML==5.1
+requests==2.21.0
+graphqlclient==0.2.4
+uuid==1.30
+pytz==2019.3
+tzlocal==2.0.0
+schedule==0.6.0
+argparse==1.4.0

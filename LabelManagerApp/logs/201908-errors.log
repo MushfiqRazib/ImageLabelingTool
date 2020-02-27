@@ -1,0 +1,424 @@
+2019-08-26 11:37:58 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 52, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.ProgrammingError: column "Orig_ImageName" of relation "Image_Details" does not exist
+LINE 12: ...                                                  "Orig_Imag...
+                                                              ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:01:46 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-08-26 12:14:14 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 73, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.DataError: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+

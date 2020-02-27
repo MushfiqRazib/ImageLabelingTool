@@ -1,0 +1,188 @@
+2020-01-16 18:40:19 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:40:19 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:40:19 | INFO     | __main__ : Run application.
+2020-01-16 18:40:19 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:40:19 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t postgres'>: starting process
+2020-01-16 18:40:19 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t postgres', pid 19124>: process started
+2020-01-16 18:41:40 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:41:40 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:41:40 | INFO     | __main__ : Run application.
+2020-01-16 18:41:40 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:41:40 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres'>: starting process
+2020-01-16 18:41:40 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres', pid 19201>: process started
+2020-01-16 18:41:41 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres', pid 19201>: process completed
+2020-01-16 18:41:41 | INFO     | databasebackupcontroller : END BACKUP PROCESS
+2020-01-16 18:41:41 | INFO     | __main__ : Database Backup is done.
+2020-01-16 18:41:41 | INFO     | __main__ : END APPLICATION
+2020-01-16 18:54:39 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:54:39 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:54:39 | INFO     | __main__ : Run application.
+2020-01-16 18:54:39 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:54:39 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t -f postgres'>: starting process
+2020-01-16 18:54:39 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t -f postgres', pid 20009>: process started
+2020-01-16 18:54:56 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:54:56 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:54:56 | INFO     | __main__ : Run application.
+2020-01-16 18:54:56 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:54:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t  postgres'>: starting process
+2020-01-16 18:54:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -F t  postgres', pid 20066>: process started
+2020-01-16 18:55:09 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:55:09 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:55:09 | INFO     | __main__ : Run application.
+2020-01-16 18:55:09 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:55:09 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft  postgres'>: starting process
+2020-01-16 18:55:09 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft  postgres', pid 20107>: process started
+2020-01-16 18:55:25 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:55:25 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:55:25 | INFO     | __main__ : Run application.
+2020-01-16 18:55:25 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:55:25 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -F t -f  postgres'>: starting process
+2020-01-16 18:55:25 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -F t -f  postgres', pid 20141>: process started
+2020-01-16 18:55:37 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:55:37 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:55:37 | INFO     | __main__ : Run application.
+2020-01-16 18:55:37 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:55:37 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -F t  postgres'>: starting process
+2020-01-16 18:55:37 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -F t  postgres', pid 20170>: process started
+2020-01-16 18:55:49 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:55:49 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:55:49 | INFO     | __main__ : Run application.
+2020-01-16 18:55:49 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:55:49 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -Ft  postgres'>: starting process
+2020-01-16 18:55:49 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres  -Ft  postgres', pid 20211>: process started
+2020-01-16 18:56:23 | INFO     | __main__ : START APPLICATION
+2020-01-16 18:56:23 | INFO     | __main__ : Initialize settings.
+2020-01-16 18:56:23 | INFO     | __main__ : Run application.
+2020-01-16 18:56:23 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 18:56:23 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres'>: starting process
+2020-01-16 18:56:23 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres', pid 20261>: process started
+2020-01-16 18:56:23 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres -Ft postgres', pid 20261>: process completed
+2020-01-16 18:56:23 | INFO     | databasebackupcontroller : END BACKUP PROCESS
+2020-01-16 18:56:23 | INFO     | __main__ : Database Backup is done.
+2020-01-16 18:56:23 | INFO     | __main__ : END APPLICATION
+2020-01-16 19:03:03 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:03:03 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:03:03 | INFO     | __main__ : Run application.
+2020-01-16 19:03:03 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 19:03:03 | INFO     | __main__ : Database Backup is done.
+2020-01-16 19:03:03 | INFO     | __main__ : END APPLICATION
+2020-01-16 19:28:55 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:28:55 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:28:55 | INFO     | __main__ : Run application.
+2020-01-16 19:28:55 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2020-01-16 19:28:55 | INFO     | databasebackupcontroller : Backup file path: /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar
+2020-01-16 19:28:55 | INFO     | __main__ : Database Backup is done.
+2020-01-16 19:28:55 | INFO     | __main__ : END APPLICATION
+2020-01-16 19:42:58 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:42:58 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:43:20 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:43:20 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:43:20 | INFO     | __main__ : Run application.
+2020-01-16 19:43:20 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 19:43:20 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 19:43:20 | INFO     | databasebackupcontroller : START Database restore
+2020-01-16 19:43:20 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar'>: starting process
+2020-01-16 19:43:20 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar', pid 22380>: process started
+2020-01-16 19:44:50 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:44:50 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:44:50 | INFO     | __main__ : Run application.
+2020-01-16 19:44:50 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 19:44:50 | INFO     | databasebackupcontroller : database "db_backup" already exists
+
+2020-01-16 19:44:50 | INFO     | databasebackupcontroller : START Database restore
+2020-01-16 19:44:50 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar'>: starting process
+2020-01-16 19:44:50 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar', pid 22450>: process started
+2020-01-16 19:49:34 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:49:34 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:49:34 | INFO     | __main__ : Run application.
+2020-01-16 19:49:34 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 19:49:34 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 19:49:34 | INFO     | databasebackupcontroller : START Database restore
+2020-01-16 19:49:34 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Ft -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar'>: starting process
+2020-01-16 19:49:34 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Ft -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar', pid 22795>: process started
+2020-01-16 19:50:41 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:50:41 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:50:41 | INFO     | __main__ : Run application.
+2020-01-16 19:50:41 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 19:50:41 | INFO     | databasebackupcontroller : database "db_backup" already exists
+
+2020-01-16 19:50:41 | INFO     | databasebackupcontroller : START Database restore
+2020-01-16 19:50:41 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Ft -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar'>: starting process
+2020-01-16 19:50:41 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Ft -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar', pid 22858>: process started
+2020-01-16 19:55:56 | INFO     | __main__ : START APPLICATION
+2020-01-16 19:55:56 | INFO     | __main__ : Initialize settings.
+2020-01-16 19:55:56 | INFO     | __main__ : Run application.
+2020-01-16 19:55:56 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 19:55:56 | INFO     | databasebackupcontroller : database "db_backup" already exists
+
+2020-01-16 19:55:56 | INFO     | databasebackupcontroller : START Database restore
+2020-01-16 19:55:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar'>: starting process
+2020-01-16 19:55:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d db_backup /home/mushfiqrahman/dev/develop_branch/labeling/db/backup/2020/20200116-labelapp-backup.tar', pid 23049>: process started
+2020-01-16 20:06:39 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:06:39 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:06:39 | INFO     | __main__ : Run application.
+2020-01-16 20:06:39 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:06:39 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:06:40 | INFO     | __main__ : Done running application.
+2020-01-16 20:06:40 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:13:01 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:13:01 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:13:01 | INFO     | __main__ : Run database store process.
+2020-01-16 20:13:01 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:13:01 | INFO     | databasebackupcontroller : database "db_backup" already exists
+
+2020-01-16 20:13:06 | INFO     | databasebackupcontroller : database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2020-01-16 20:13:06 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:13:06 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:15:47 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:15:47 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:15:47 | INFO     | __main__ : Run database store process.
+2020-01-16 20:15:47 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:15:48 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:15:54 | INFO     | databasebackupcontroller : database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2020-01-16 20:15:54 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:15:54 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:19:35 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:19:35 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:19:35 | INFO     | __main__ : Run database store process.
+2020-01-16 20:19:35 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:19:36 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:19:42 | INFO     | databasebackupcontroller : database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2020-01-16 20:19:42 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:19:42 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:23:36 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:23:36 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:23:36 | INFO     | __main__ : Run database store process.
+2020-01-16 20:23:36 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:23:37 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:23:37 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:23:37 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:25:48 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:25:48 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:25:48 | INFO     | __main__ : Run database store process.
+2020-01-16 20:25:48 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:25:48 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:25:54 | INFO     | databasebackupcontroller : database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2020-01-16 20:25:54 | INFO     | databasebackupcontroller : Error from rename.
+2020-01-16 20:25:54 | INFO     | databasebackupcontroller : END Database restore
+2020-01-16 20:25:54 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:25:54 | INFO     | __main__ : END APPLICATION
+2020-01-16 20:32:25 | INFO     | __main__ : START APPLICATION
+2020-01-16 20:32:25 | INFO     | __main__ : Initialize settings.
+2020-01-16 20:32:25 | INFO     | __main__ : Run database store process.
+2020-01-16 20:32:25 | INFO     | databasebackupcontroller : BEGIN Database restore
+2020-01-16 20:32:25 | INFO     | databasebackupcontroller : New database has been created!
+2020-01-16 20:32:27 | INFO     | databasebackupcontroller : current database cannot be renamed
+
+2020-01-16 20:32:27 | INFO     | databasebackupcontroller : Error from rename.
+2020-01-16 20:32:27 | INFO     | databasebackupcontroller : END Database restore
+2020-01-16 20:32:27 | INFO     | __main__ : Database restore is completed.
+2020-01-16 20:32:27 | INFO     | __main__ : END APPLICATION

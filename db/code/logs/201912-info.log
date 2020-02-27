@@ -1,0 +1,21 @@
+2019-12-09 18:48:13 | INFO     | __main__ : START APPLICATION
+2019-12-09 18:48:13 | INFO     | __main__ : Initialize settings.
+2019-12-09 18:48:13 | INFO     | __main__ : Run application.
+2019-12-09 18:48:13 | INFO     | databasebackupcontroller : STARTING BACKUP PROCESS
+2019-12-09 18:48:13 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres postgres -Fc'>: starting process
+2019-12-09 18:48:13 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres postgres -Fc', pid 18678>: process started
+2019-12-09 18:48:13 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_dump -h localhost -U postgres postgres -Fc', pid 18678>: process completed
+2019-12-09 18:48:13 | INFO     | databasebackupcontroller : END BACKUP PROCESS
+2019-12-09 18:48:13 | INFO     | __main__ : Done running application.
+2019-12-09 18:48:13 | INFO     | __main__ : END APPLICATION
+2019-12-09 18:48:50 | INFO     | __main__ : START APPLICATION
+2019-12-09 18:48:50 | INFO     | __main__ : Initialize settings.
+2019-12-09 18:48:50 | INFO     | __main__ : Run application.
+2019-12-09 18:48:50 | INFO     | databasebackupcontroller : BEGIN Database restore
+2019-12-09 18:48:51 | INFO     | databasebackupcontroller : New database has been created!
+2019-12-09 18:48:56 | INFO     | databasebackupcontroller : database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2019-12-09 18:48:56 | INFO     | databasebackupcontroller : START Database restore
+2019-12-09 18:48:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d postgres None'>: starting process
+2019-12-09 18:48:56 | INFO     | sh.command : <Command '/home/mushfiqrahman/anaconda3/envs/DjangoProject/bin/pg_restore -h localhost -p 5432 -U postgres -Fc -d postgres None', pid 18743>: process started

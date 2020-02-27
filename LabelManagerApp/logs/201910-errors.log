@@ -1,0 +1,42 @@
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 58, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to insert record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 58, in db_insert_row
+    cursor.execute(sql_insert_query, record)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
+2019-10-20 23:33:27 | ERROR    | database.dbmanager : Database: Failed to update record.
+Traceback (most recent call last):
+  File "/home/mushfiqrahman/dev/labeling_dev_branch/labeling/LabelManagerApp/database/dbmanager.py", line 78, in db_update_row
+    cursor.execute(sql_update_query, record)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: ""
+LINE 5:                             "Project_Id" = '',
+                                                   ^
+
