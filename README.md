@@ -1,1 +1,1 @@
-# Labeling Tool for Image Recognition 
+# Labeling Tool for Object Detection 
