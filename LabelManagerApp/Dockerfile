@@ -33,7 +33,6 @@ ENV TZ Europe/Berlin
 
 # copy project
 COPY . /home/labelapp/labelingapp
-#VOLUME /home/labelapp/FZG-NAS/461_DatenBilderkennung
 
 #ENTRYPOINT ["python3", "main.py"]
 RUN chmod +x labelentry.sh
