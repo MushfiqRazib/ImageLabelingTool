@@ -12,8 +12,7 @@ services:
       - 9000:443
     restart: unless-stopped
     volumes:
-      #- /home/mushfiqrahman/dev/ProjectRoot:/home/mushfiqrahman/dev/ProjectRoot/
-      - /home/labelapp/FZG-NAS/461_DatenBilderkennung:/home/labelapp/FZG-NAS/461_DatenBilderkennung
+      - /home/mushfiqrahman/dev/ProjectRoot:/home/mushfiqrahman/dev/ProjectRoot/
 
   labelapp:
     #image: rahman19/labelapp:latest
@@ -22,8 +21,7 @@ services:
     network_mode: host
     command: tail -f /dev/null
     volumes:
-      #- /home/mushfiqrahman/dev/ProjectRoot:/home/mushfiqrahman/dev/ProjectRoot/
-      - /home/labelapp/FZG-NAS/461_DatenBilderkennung:/home/labelapp/labelingapp/data
+      - /home/mushfiqrahman/dev/ProjectRoot:/home/mushfiqrahman/dev/ProjectRoot/
 
   dbapp:
     image: labeldbapp:latest
@@ -31,6 +29,5 @@ services:
     network_mode: host
     command: tail -f /dev/null
     volumes:
-      #- /home/mushfiqrahman/dev/backupdb:/usr/src/app/data/
-      - /home/labelapp/labelingdb:/usr/src/app/data/
+      - /home/mushfiqrahman/dev/backupdb:/usr/src/app/data/
   
