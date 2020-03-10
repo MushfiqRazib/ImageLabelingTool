@@ -35,5 +35,7 @@ ENV TZ Europe/Berlin
 COPY . /home/labelapp/labelingapp
 #VOLUME /home/labelapp/FZG-NAS/461_DatenBilderkennung
 
-ENTRYPOINT ["python3", "main.py"]
+#ENTRYPOINT ["python3", "main.py"]
+RUN chmod +x labelentry.sh
+ENTRYPOINT ["/bin/sh", "./labelentry.sh"]
 #CMD [""]

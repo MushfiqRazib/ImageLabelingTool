@@ -30,5 +30,7 @@ RUN pip3 install psycopg2
 COPY . /usr/src/app/
 VOLUME /usr/src/app/data
 
-ENTRYPOINT ["python3", "main.py"]
+# ENTRYPOINT ["python3", "main.py"]
+RUN chmod +x dbentry.sh
+ENTRYPOINT ["/bin/sh", "./dbentry.sh"]
 CMD [""]
