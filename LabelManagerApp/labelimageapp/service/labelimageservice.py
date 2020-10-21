@@ -1,4 +1,4 @@
-# file: labelimagecontroller.py
+# file: labelimageservice.py
 # author: name <email>
 # date: 05-21-2019
 '''
@@ -19,9 +19,9 @@ from database.dal.labeldal import LabelDAL
 from database.dal.imagedal import ImageDAL
 from database.models.project import Project
 from database.dal.projectdal import ProjectDAL
-from labelimageapp.quality_evaluation import QualityEvaluation
+from labelimageapp.service.quality_evaluation import QualityEvaluation
 from settings import Configuration_Settings
-import labelimageapp.directoryop
+import labelimageapp.service.directoryop
 import labelimageapp.util
 from utility.signalhandler import PreventShutdown
 from utility.loggingfile import Log
