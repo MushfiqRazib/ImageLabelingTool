@@ -16,9 +16,8 @@ class Configuration_Settings(object):
         self.DATABASE_PORT = "5432"
 
         # project root settings
-        #self.ROOT_PATH = r"/home/mushfiqrahman/dev/ProjectRoot"
+        self.ROOT_PATH = r"/home/mushfiqrahman/dev/ProjectRoot"
         #self.ROOT_PATH = r"/home/labelapp/labelingapp/data"
-        self.ROOT_PATH = r"/home/labelapp/FZG-NAS/461_DatenBilderkennung"
 
         # webserver settings
         #self.WEB_SERVER_HOST = "localhost:9000" 
