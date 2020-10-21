@@ -30,7 +30,7 @@ logger = Log().logging.getLogger(__name__)
 
 
 
-class LabelImageController(object):
+class LabelImageService(object):
     def __init__(self):
         self.isImageProcessing = False
         self.configuration_obj = Configuration_Settings()

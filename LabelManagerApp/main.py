@@ -5,8 +5,8 @@
 # All the packages entry point is from main.py file.
 '''
 
-from labelingapp.labelboxclient import LabelboxClient
-from labelimageapp.labelimagecontroller import LabelImageController
+from labelingapi.labelboxclient import LabelboxClient
+from labelimageapp.labelimageservice import LabelImageService
 from utility.scheduler import ScheduleProgram
 from utility.loggingfile import Log
 
@@ -20,7 +20,7 @@ logger = Log().logging.getLogger(__name__)
 class Main():
     def __init__(self):
         logger.info('Initialize settings.')
-        self.labelImageClientObject = LabelImageController()
+        self.labelImageClientObject = LabelImageService()
         self.labelboxClient  = LabelboxClient()
 
     def single_run(self):

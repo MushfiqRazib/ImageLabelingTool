@@ -13,8 +13,8 @@ from database.dal.projectdal import ProjectDAL
 from database.dal.labelbox_details_dal import Labelbox_Details_DAL
 from database.dal.labeldal import LabelDAL
 from settings import Configuration_Settings
-from labelingapp.labelbox import Labelbox
-from labelimageapp.labelimagecontroller import LabelImageController
+from labelingapi.labelbox import Labelbox
+from labelimageapp.labelimageservice import LabelImageService
 from utility.signalhandler import PreventShutdown
 from utility.loggingfile import Log
 
@@ -43,7 +43,7 @@ class LabelboxClient():
         self.dataset_ids = []
         self.labelbox_api = Labelbox()
         self.uinterface_id = self.labelbox_api.get_uinterfaceid(self.configuration_obj.LABELBOX_UINTERFACE_NAME)
-        self.labelImageClientObject = LabelImageController()
+        self.labelImageClientObject = LabelImageService()
 
     def initiate_labelbox_api(self):
         logger.info('START UPLOADING LABELBOX')
