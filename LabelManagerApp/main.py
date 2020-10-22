@@ -5,8 +5,8 @@
 # All the packages entry point is from main.py file.
 '''
 
-from labelingapi.labelboxclient import LabelboxClient
-from labelimageapp.labelimageservice import LabelImageService
+from labelingservice.labelboxclient import LabelboxClient
+from labelimageapp.service.labelimageservice import LabelImageService
 from utility.scheduler import ScheduleProgram
 from utility.loggingfile import Log
 
