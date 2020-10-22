@@ -1,5 +1,9 @@
 # Labeling Tool for Image Recognition 
 
+## Image Labeling Tool Overview:
+
+![Tool oveview](tool-overview.png)
+
 ## Steps for Webserver Deployment Using Docker
 
 To run the webserver, below steps are taking place:
